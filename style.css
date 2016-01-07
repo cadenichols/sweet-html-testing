@@ -1,0 +1,52 @@
+/*
+body {
+  background-color: #000000;
+}
+*/
+
+a {
+  color: black;
+  cursor: crosshair;
+  text-decoration: none;
+}
+
+.box {
+  height: 40px;
+  width: 80px;
+  background-color: #bfb;
+}
+
+.box:hover {
+  background-color: #dfd;
+  border: 1px solid gold;
+  box-shadow: 4px 5px 9px #888CA8;
+}
+
+
+#whatever {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:500px;
+}
+
+#logo {
+  height: 92px;
+}
+
+
+h1 {
+  color: red;
+}
+h1 {
+  color: #000000;
+}
+
+h1:nth-of-type(2) {
+  color: blue;
+}
+
+h1:hover {
+  color: black;
+  margin-left: 60px;
+}
